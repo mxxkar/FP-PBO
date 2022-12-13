@@ -32,12 +32,17 @@ public class Brick<T> extends Sprite {
 - Encapsulation : Ball
     
     void setXDir(int x) {
-    xdir = x;
+
+        xdir = x;
     }
+
     void setYDir(int y) {
-     ydir = y;
+
+        ydir = y;
     }
+
     int getYDir() {
+
         return ydir;
     }
 }
