@@ -17,35 +17,35 @@ Rencana Final Project : Saya akan membuat game yang saya beri nama BUFALO (Break
 Aspek OOP : 
 - Constructor : Breakout
 
-    public Breakout() {       
-        initUI();
-    }
+        public Breakout() {       
+            initUI();
+        }
     
 - Generic : Brick, Paddle, Ball
 
-public class Brick<T> extends Sprite {
-    private boolean destroyed;  
-    public Brick(int x, int y) {   
-        initBrick(x, y);
-    }
+        public class Brick<T> extends Sprite {
+            private boolean destroyed;  
+            public Brick(int x, int y) {   
+                initBrick(x, y);
+            }
     
 - Encapsulation : Ball
     
-    void setXDir(int x) {
+        void setXDir(int x) {
 
-        xdir = x;
+            xdir = x;
+        }
+
+        void setYDir(int y) {
+
+            ydir = y;
+        }
+
+        int getYDir() {
+
+            return ydir;
+        }
     }
-
-    void setYDir(int y) {
-
-        ydir = y;
-    }
-
-    int getYDir() {
-
-        return ydir;
-    }
-}
     
 - GUI : Board
 - Override : Board
