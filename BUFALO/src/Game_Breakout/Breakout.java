@@ -7,8 +7,14 @@ package Game_Breakout;
 import javax.swing.JFrame;
 import java.awt.EventQueue;
 
+/**
+ *
+ * @author LENOVO
+ */
+
 public class Breakout extends JFrame {
 
+    //Constructor
     public Breakout() {
         
         initUI();
@@ -17,7 +23,7 @@ public class Breakout extends JFrame {
     private void initUI() {
 
         add(new Board());
-        setTitle("Breakout");
+        setTitle("BUFALO");
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);

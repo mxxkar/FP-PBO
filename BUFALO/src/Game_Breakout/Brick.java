@@ -6,10 +6,15 @@ package Game_Breakout;
 
 import javax.swing.ImageIcon;
 
-public class Brick extends Sprite {
+/**
+ *
+ * @author LENOVO
+ */
+
+public class Brick<T> extends Sprite {
 
     private boolean destroyed;
-
+    
     public Brick(int x, int y) {
         
         initBrick(x, y);

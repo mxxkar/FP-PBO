@@ -6,7 +6,12 @@ package Game_Breakout;
 
 import javax.swing.ImageIcon;
 
-public class Ball extends Sprite {
+/**
+ *
+ * @author LENOVO
+ */
+
+public class Ball<T> extends Sprite {
 
     private int xdir;
     private int ydir;

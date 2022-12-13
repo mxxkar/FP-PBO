@@ -7,7 +7,13 @@ package Game_Breakout;
 import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 
-public class Paddle extends Sprite  {
+/**
+ *
+ * @author LENOVO
+ */
+
+//Generic
+public class Paddle<T> extends Sprite  {
 
     private int dx;
 

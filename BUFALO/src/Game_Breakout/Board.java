@@ -21,10 +21,16 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+/**
+ *
+ * @author LENOVO
+ */
+//GUI
+
 public class Board extends JPanel {
 
     private Timer timer;
-    private String message = "Game Over";
+    private String message = "Try harder!";
     private Ball ball;
     private Paddle paddle;
     private Brick[] bricks;
@@ -66,7 +72,7 @@ public class Board extends JPanel {
         timer.start();
     }
 
-    @Override
+    // @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
@@ -121,13 +127,13 @@ public class Board extends JPanel {
 
     private class TAdapter extends KeyAdapter {
 
-        @Override
+        // @Override
         public void keyReleased(KeyEvent e) {
 
             paddle.keyReleased(e);
         }
 
-        @Override
+        // @Override
         public void keyPressed(KeyEvent e) {
 
             paddle.keyPressed(e);
@@ -136,7 +142,7 @@ public class Board extends JPanel {
 
     private class GameCycle implements ActionListener {
 
-        @Override
+        // @Override
         public void actionPerformed(ActionEvent e) {
 
             doGameCycle();

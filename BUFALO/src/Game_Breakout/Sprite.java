@@ -7,7 +7,12 @@ package Game_Breakout;
 import java.awt.Image;
 import java.awt.Rectangle;
 
-public class Sprite {
+/**
+ *
+ * @author LENOVO
+ */
+
+abstract class Sprite {
 
     int x;
     int y;
