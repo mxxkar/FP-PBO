@@ -18,6 +18,7 @@ Aspek OOP :
 - Constructor : Breakout
 
     public Breakout() {
+        
         initUI();
     }
     
