@@ -17,8 +17,7 @@ Rencana Final Project : Saya akan membuat game yang saya beri nama BUFALO (Break
 Aspek OOP : 
 - Constructor : Breakout
 
-    public Breakout() {
-        
+    public Breakout() {       
         initUI();
     }
     
